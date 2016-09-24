@@ -1,9 +1,10 @@
-package pl.joannaj.bustimetable;
+package bustimetable;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import pl.joannaj.bustimetable.R;
 
 public class MainActivity extends Activity {
 
