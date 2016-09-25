@@ -28,8 +28,16 @@ public class MockDataProvider implements DataProvider {
 
 	@Override
 	public List<BusStop> getBusStops(BusNumber busNumber, Direction direction) {
-		// TODO Auto-generated method stub
-		return null;
+		return Arrays.asList(
+				new BusStop("Dworzec - pêtla"),
+				new BusStop("Grunwaldzka - hotel"),
+				new BusStop("Mickiewicza"),
+				new BusStop("Koœciuszki - Wspólna"),
+				new BusStop("Koœciuszki - Toruñska"),
+				new BusStop("Królewiecka - szpital"),
+				new BusStop("Królewiecka - Metalowców"),
+				new BusStop("Fromborska - Truso")
+				);
 	}
 
 }
